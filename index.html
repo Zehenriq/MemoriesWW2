@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Museu Digital da Segunda Guerra Mundial</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0a0a0a;
+    color:#e5e5e5;
+}
+
+.font-title{
+    font-family:'Cinzel', serif;
+}
+
+.font-body{
+    font-family:'Inter', sans-serif;
+}
+
+.hero{
+    background:
+    linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.92)
+    ),
+    url("banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.fade-line{
+    width:200px;
+    height:1px;
+    margin:auto;
+    background:linear-gradient(
+        transparent,
+        #c7a86d,
+        transparent
+    );
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="hero min-h-screen flex items-center justify-center">
+
+    <div class="text-center px-6">
+
+        <h1 class="font-title text-5xl md:text-7xl lg:text-8xl text-amber-200 mb-8">
+            FOTOGRAFIAS DA <br> SEGUNDA GUERRA MUNDIAL
+        </h1>
+
+        <div class="fade-line mb-8"></div>
+
+        <p class="font-body text-zinc-300 max-w-3xl mx-auto text-lg md:text-xl leading-relaxed">
+            Uma exposição digital dedicada às fotografias que registraram
+            os acontecimentos mais marcantes do maior conflito da história.
+        </p>
+
+        <a
+            href="#galeria"
+            class="inline-block mt-12 border border-amber-300 px-8 py-3 hover:bg-amber-300 hover:text-black transition duration-300"
+        >
+            Iniciar Exposição
+        </a>
+
+    </div>
+
+</header>
+
+<section class="py-32 px-8">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+        <h2 class="font-title text-4xl text-amber-200 mb-8">
+            Arquivo Histórico
+        </h2>
+
+        <p class="font-body text-zinc-400 leading-8 text-lg">
+            Cada fotografia desta coleção representa um fragmento da história.
+            Explore os eventos, batalhas e personagens que marcaram os anos
+            entre 1939 e 1945.
+        </p>
+
+    </div>
+
+</section>
+
+<main id="galeria">
+
+    <section class="min-h-screen flex items-center px-8 py-20">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div>
+
+                <img
+                    src="img/GettyImages-141559476_master_red.png"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+            <div>
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1944
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    A Cobra está Fumando!
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    Soldado Francisco de Paula, número de série 1G-192925, embarcou no navio de transporte de tropas General Mann na noite de 30 de junho de 1944 para destino desconhecido. Assim foi, pois todo cuidado era pouco para evitar os torpedos dos submarinos alemães que infestavam aquela parte do Atlântico desde 1942. Francisco, assim como os outros 5.075 homens, era membro da 1ª Divisão Expedicionária da Força Expedicionária Brasileira (comandada pelo General Zenóbio da Costa) que partiu para o teatro de guerra. Francisco não poderia imaginar que seria retratado pelo fotógrafo de guerra Soldado Laurence V. Emery em 29 de setembro de 1944. Aí está o Soldado Francisco de Paula carregando uma peça de 105mm com uma mensagem escrita para os alemães: “A Cobra está Fumando!”
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+   <section class="min-h-screen flex items-center px-8 py-20 bg-zinc-950">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div class="order-2 lg:order-1">
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1944
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    Desembarque de Ohama no Dia D
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    Soldados americanos numa embarcação de desembarque aproximam-se da praia de Omaha no Dia D. Cerca de 160 mil soldados aliados desembarcaram na Normandia a 6 de junho de 1944.
+                </p>
+
+            </div>
+
+            <div class="order-1 lg:order-2">
+
+                <img
+                    src="img/dday3.png"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="min-h-screen flex items-center px-8 py-20">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div>
+
+                <img
+                    src="img/dday5.png"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+            <div>
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1944
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    Rua de Southampton, Inglaterra
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    Veículos militares dos Estados Unidos se alinham em uma rua de Southampton e aguardam o transporte para a Normandia, enquanto Annie Bagg estende sua roupa, como de costume, em 1944.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="min-h-screen flex items-center px-8 py-20 bg-zinc-950">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div class="order-2 lg:order-1">
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1944
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    Princesa Elizabeth
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    Perto de Brighton, na costa sul da Inglaterra, a Princesa Elizabeth, de 18 anos, futura rainha, inspeciona uma guarda de honra do Segundo Batalhão de Guardas Granadeiros em 17 de maio de 1944, durante os preparativos para o Dia D.
+                </p>
+
+            </div>
+
+            <div class="order-1 lg:order-2">
+
+                <img
+                    src="img/dday8.png"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="min-h-screen flex items-center px-8 py-20">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div>
+
+                <img
+                    src="img/dday9.png"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+            <div>
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1945
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    Bandeira norte-americana em Iwo Jima
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    Após cinco dias de combates intensos, os fuzileiros navais dos Estados Unidos hastearam uma bandeira norte-americana no topo do ponto mais alto de Iwo Jima, em 23 de fevereiro de 1945. Dois dias depois, a fotografia de Joe Rosenthal estava na primeira página dos jornais de domingo nos Estados Unidos. A imagem aclamada ganhou o Prêmio Pulitzer no mesmo ano.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="min-h-screen flex items-center px-8 py-20 bg-zinc-950">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div class="order-2 lg:order-1">
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1945
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    Bandeira soviética no Reichstag
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    Tirada em 2 de maio de 1945, ela mostra dois soldados soviéticos hasteando uma bandeira soviética no topo do Palácio do Reichstag, que era a sede do parlamento federal do Partido Nazista. Simboliza a vitória da União Soviética sobre a Alemanha Nazista durante a Batalha de Berlim.
+                </p>
+
+            </div>
+
+            <div class="order-1 lg:order-2">
+
+                <img
+                    src="img/dday10.jpg"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="min-h-screen flex items-center px-8 py-20">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div>
+
+                <img
+                    src="img/dda11.png"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+            <div>
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1944
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    George Blind
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    George Blind, membro da resistência francesa, sorrindo diante do esquadrão de fuzilamento alemão que o executaria, 1944. O fuzilamento, entretanto, não ocorreu. Créditos: autoria desconhecida.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="min-h-screen flex items-center px-8 py-20 bg-zinc-950">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+
+            <div class="order-2 lg:order-1">
+
+                <span class="text-amber-300 uppercase tracking-[4px]">
+                    1938
+                </span>
+
+                <h2 class="font-title text-4xl lg:text-5xl mt-4 mb-8">
+                    Mulher Sudeta
+                </h2>
+
+                <p class="font-body text-zinc-400 leading-8 text-lg">
+                    A tragédia desta mulher sudeta, incapaz de esconder sua miséria enquanto saúda obedientemente o triunfante Hitler, é a tragédia dos milhões silenciosos que foram "conquistados" para o hitlerismo pelo "uso incessante" da força impiedosa.
+                </p>
+
+            </div>
+
+            <div class="order-1 lg:order-2">
+
+                <img
+                    src="img/dda12.png"
+                    alt="Descrição da foto"
+                    class="max-h-[85vh] max-w-full w-auto mx-auto object-contain"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="border-t border-zinc-800 py-16">
+
+    <div class="max-w-4xl mx-auto text-center px-8">
+
+        <h3 class="font-title text-2xl text-amber-200 mb-6">
+            Fim da Exposição
+        </h3>
+
+        <p class="font-body text-zinc-500 leading-7">
+            As imagens apresentadas nesta coleção preservam a memória
+            de um dos períodos mais importantes da história contemporânea.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
